@@ -20,15 +20,17 @@ public class exp1 {
 		    //Traversing Map 
 		Set val= map.entrySet(); 	//Converting to Set so that we can traverse
 		
-		System.out.println(val);
+		System.out.println(val); 
 		
 	
 		Iterator itr=val.iterator();
 		
-		while(itr.hasNext()) {
+		while(itr.hasNext()) { 
 	        //Converting to Map.Entry so that we can get key and value separately  
 
 			Map.Entry entry=(Entry) itr.next();
+			
+			 
 			
 		
 			System.out.println(entry.getKey()+" "+entry.getValue()); 
@@ -39,7 +41,7 @@ public class exp1 {
 			*/
 
 		}
-		
+		 
 		System.out.println("------------------------------------------");
 		
 		for(Map.Entry mm:map.entrySet()) {

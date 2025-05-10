@@ -4,7 +4,7 @@ package nonaccessmodifiers;
 	abstract void methodA();
 	
 	void methodk() {
-	}
+	} 
 }
 
  abstract class B extends A{ 

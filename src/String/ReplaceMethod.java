@@ -13,7 +13,7 @@ System.out.println(h.replaceFirst("Amar", "abhi"));
 
 
 
-
+ 
 	}
 	
 

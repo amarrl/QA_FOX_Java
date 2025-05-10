@@ -19,7 +19,7 @@ class car{
 
 
 class maruthiCar extends car{
-	int no;
+	int no; 
 	
 }
 
@@ -40,10 +40,14 @@ public class SinglelevelInherutance {
 		t.no=18;
 		
 		
+		
 		benz b=new benz();
 		b.carName="Benz";
 		b.carDetails();
 		
+		car common=new maruthiCar();
+		
+		//hear we are creating the object for maruthiCar but we are saying that this object should refer to the propeties of car
 		
 	}
 

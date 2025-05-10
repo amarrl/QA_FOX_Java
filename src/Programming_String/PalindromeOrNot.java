@@ -14,7 +14,7 @@ public class PalindromeOrNot {
 			
 	res+=text.charAt(i);
 			
-			
+			 
 		}
 		 
 		if(res.equalsIgnoreCase(text)) {

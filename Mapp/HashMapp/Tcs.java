@@ -10,22 +10,22 @@ import java.util.Set;
 public class Tcs {
 	public static void main (String[]args){
 		
-		String s ="parogramminga";
+		String s ="parogramminga"; 
 		
 		HashMap<Integer,Character>chars=new HashMap<>();
 		
 		
-		for(int i=0;i<s.length();i++) {
+		for(int i=0;i<s.length();i++) { 
 			char ch=s.charAt(i);
-			
-			chars.put(i,ch);
+			 
+			chars.put(i,ch);  
 			
 		}
 		
 		System.out.println("HashMap values: "+ chars.values());
 		
 	
-		Collection <Character>vh=chars.values();
+		Collection <Character>vh=chars.values(); 
 		
 		
 		

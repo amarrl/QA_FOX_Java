@@ -1,6 +1,6 @@
 package Interface;
 
-public class Bird implements Fly,Walk { 
+public class Bird implements Fly {  
 
 	@Override
 	public void walk() {

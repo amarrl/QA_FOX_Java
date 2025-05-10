@@ -23,7 +23,7 @@ public class Example {
 		
 		System.out.println("-------------------");
 		
-	 Set i=h.entrySet();
+	 Set i=h.entrySet(); 
 	 //System.out.println(i);
 	 
 	 Iterator itr=i.iterator();

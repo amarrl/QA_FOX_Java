@@ -15,7 +15,7 @@ public class ShortOcuurneces {
 		char[]ch=  text.toCharArray(); 
 		
 		Arrays.sort(ch);    
-		
+		 
 		
 		     
 		int count[]=new int[26];
@@ -24,7 +24,7 @@ public class ShortOcuurneces {
 			count[t-'a']++;
 		}
 		
-		char curenchar='a';
+		char curenchar='a'; 
 		
 		for(int kk:count) {
 			if(kk>0) {

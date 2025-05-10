@@ -10,7 +10,7 @@ public class exappp {
 
 	    public static void main(String[] args) {
 	        String ransomNote = "ransomNote";
-	        String magazine = "Nansomrote";
+	        String magazine = "Nansomrote"; 
 
 	        HashMap<Character, Integer> magaHash = new HashMap<>();
 

@@ -2,7 +2,7 @@ package nonaccessmodifiers;
 
 abstract class Bank{    
 	
-abstract int getRateOfInterest();     
+abstract int getRateOfInterest();      
 }    
 class SBI extends Bank{    
 int getRateOfInterest(){return 7;}    

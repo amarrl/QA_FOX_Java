@@ -14,14 +14,14 @@ public class ArrayListExmp {
 		//using add() method for adding objects into ArrayList
 		list.add("Arun"); 
 		list.add("varun"); 
-		list.add("Tharun");
+		list.add("Tharun"); 
 		list.add("Arun"); 
-	
+	//System.out.println("llsl----------"+list); 
 		System.out.println(list.size());
 		
 	
 		
-		//list.set(0, "0th");
+		//list.set(0, "0th"); 
 	
 		//list.remove("varun");
 		System.out.println(list.contains("Arusn"));
@@ -108,7 +108,7 @@ public class ArrayListExmp {
 		fruits.removeAll(unwanted);
 		System.out.println(fruits); // Output: [apple]
 		unwanted.removeAll(fruits);
-		System.out.println("unwantedis "+unwanted);
+		System.out.println("unwantedis "+unwanted); 
 
 	}
 

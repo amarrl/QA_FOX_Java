@@ -6,13 +6,13 @@ public class DigitOccurances {
 
 	public static void main(String[] args) {
 		 String h="12341234567";
-	     
+	      
 	     char gh[]=h.toCharArray();  
 	     
 	     int count[]=new int[10];
 	     
-	     System.out.println(count.length);
-	     
+	     System.out.println(count.length); 
+	      
 	       
 	     for(char charis:gh){
 	       if(Character.isDigit(charis)){
