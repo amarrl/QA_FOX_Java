@@ -11,7 +11,7 @@ public class Example {
 		HashMap<Integer,String> h=new HashMap<Integer,String>();
 		h.put(1, "Kmar");
 		h.put(2, "Amar");
-		h.put(3, "Ajay");
+		h.put(3, "Ajay"); 
 		h.put(4, "Raj");
 		h.put(5, "Kundra");
 		h.put(6, "Kmar");

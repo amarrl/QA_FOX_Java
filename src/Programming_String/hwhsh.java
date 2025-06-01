@@ -5,7 +5,7 @@ public class hwhsh {
 	public static void main(String[] args) {
 		
 		
-		  String text="Haridwara kumar parvathap";
+		  String text="Haridwara kumar parvathap"; 
 		  
 		  text=text.toLowerCase().replaceAll("[^a-zA-Z]", "");
 		  

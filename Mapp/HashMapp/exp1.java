@@ -15,7 +15,7 @@ public class exp1 {
 		 map.put(3, 'A');
 		 map.put(4, 'R');
 		 
-		 System.out.println("-----"+map.get(2)); 
+		 System.out.println("-----"+map.get(2));  
 		  	
 		    //Traversing Map 
 		Set val= map.entrySet(); 	//Converting to Set so that we can traverse
@@ -56,7 +56,7 @@ public class exp1 {
 		
 		map.put(4, 'G');
 		map.put(4, 'U');
-		System.out.println(map.get(4));
+		System.out.println(map.get(4)); 
 	/*	
 	Character c=	map.replace(5, 'Z');
 	

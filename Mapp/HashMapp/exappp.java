@@ -36,7 +36,7 @@ public class exappp {
 	                } else {
 	                    canConstruct = false; // No letters left to use
 	                    break;
-	                }
+	                }  
 	            } else {
 	                canConstruct = false; // Letter not found in magazine
 	                break;

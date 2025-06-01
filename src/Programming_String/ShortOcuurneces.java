@@ -8,7 +8,10 @@ public class ShortOcuurneces {
 		
 		  String text="Haridwara kumar parvatha";  
 		  
-		  text=text.toLowerCase().replaceAll("[^a-zA-Z]",""); 
+		  text=text.toLowerCase().replaceAll("[^a-zA-Z]","");  
+		  
+		  
+		  
 		  
 		  System.out.println(text);
 		  

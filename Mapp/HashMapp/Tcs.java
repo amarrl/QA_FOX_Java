@@ -10,7 +10,7 @@ import java.util.Set;
 public class Tcs {
 	public static void main (String[]args){
 		
-		String s ="parogramminga"; 
+		String s ="parogramminga";  
 		
 		HashMap<Integer,Character>chars=new HashMap<>();
 		
@@ -18,8 +18,8 @@ public class Tcs {
 		for(int i=0;i<s.length();i++) { 
 			char ch=s.charAt(i);
 			 
-			chars.put(i,ch);  
-			
+			chars.put(i,ch);   
+			 
 		}
 		
 		System.out.println("HashMap values: "+ chars.values());
@@ -90,9 +90,9 @@ public class Main {
         }
 
         // Print duplicates (characters with count > 1)
-        System.out.println("Duplicate characters: ");
+        System.out.println("Duplicate characters: "); 
         for (Map.Entry<Character, Integer> entry : charCount.entrySet()) {
-            if (entry.getValue() > 1) {
+            if (entry.getValue() > 1) { 
                 System.out.println(entry.getKey() + " appears " + entry.getValue() + " times");
             }
         }

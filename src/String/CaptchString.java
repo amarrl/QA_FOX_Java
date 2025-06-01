@@ -1,4 +1,6 @@
-package Programming_String;
+package String;
+
+
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -6,7 +8,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Test {
+public class CaptchString {
 
 	    
 	  public static void main(String[] args) { 
@@ -50,5 +52,6 @@ public class Test {
 	     
 }
 	  
+
 
 

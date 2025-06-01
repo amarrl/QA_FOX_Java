@@ -11,7 +11,7 @@ public class ShortOccurenceExmp2 {
     	
     	expected=expected.toLowerCase().replaceAll("[^a-zA-Z0-9]", "");
     for(char c:expected.toCharArray()) {
-    	magaHash.put(c, magaHash.getOrDefault(c,0)+1); 
+    	magaHash.put(c, magaHash.getOrDefault(c,0)+1);  
     	
     	    
     } 

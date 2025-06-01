@@ -8,7 +8,7 @@ public class ReverseString {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter String");
 		String input=sc.nextLine();
-		
+		 
 		String reversedString="";
 		
 		for(int i=input.length()-1;i>=0;i--){

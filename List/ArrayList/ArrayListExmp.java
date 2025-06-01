@@ -9,7 +9,7 @@ public class ArrayListExmp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	List <String> list=new ArrayList<String>();
+	List <String> list=new ArrayList<String>(); 
 		
 		//using add() method for adding objects into ArrayList
 		list.add("Arun"); 

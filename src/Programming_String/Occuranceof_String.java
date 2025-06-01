@@ -8,7 +8,7 @@ public class Occuranceof_String {
 		int count = 0;
 		
 		
-		char c[]= new char[text.length()];  
+		char c[]= new char[text.length()];   
 		int p=0;
 		
 		
